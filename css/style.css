@@ -35,6 +35,9 @@ body {
 	padding: 50px;
 	margin-bottom: 20px;
 }
+.title::first-line {
+	color: #d12991;
+}
 .title:hover {
 	background: linear-gradient(270deg, #3F8D45 23.62%, rgba(255, 255, 255, 0.28) 53.23%);
 	box-shadow: 12px 12px 15px #000000;
@@ -58,6 +61,10 @@ body {
 	background: linear-gradient(269.84deg, #3F8D45 35.38%, rgba(196, 196, 196, 0.6) 100.51%);
 	border-radius: 100px 10px 10px 100px;
 	border: 1px solid #FFFBFB;
+}
+.sub-title::first-letter {
+	font-size: 60px;
+	color: #275634;
 }
 .sub-title:hover {
 	background-color: #3F8D45;
